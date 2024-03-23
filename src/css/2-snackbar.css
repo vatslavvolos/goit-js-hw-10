@@ -1,0 +1,93 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 160px;
+  margin-top: 40px;
+}
+
+button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  border: none;
+  background: #4e75ff;
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+button:hover {
+  background: #6c8cff;
+}
+fieldset {
+  width: 356px;
+  height: 78px;
+  margin: 0;
+  padding: 0;
+  border-radius: 4px;
+  stroke-width: 1px;
+  border: 1px solid #808080;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 48px;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+fieldset:hover {
+  border: 1px solid #000;
+}
+fieldset:focus {
+  border: 1px solid #000;
+}
+form > label:first-child {
+  display: flex;
+  flex-direction: column;
+  width: 356px;
+  height: 72px;
+  gap: 8px;
+}
+[name='delay'] {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 356px;
+  height: 40px;
+  padding: 0;
+}
+[name='delay']:hover {
+  border: 1px solid #000;
+}
+[name='delay']:focus {
+  border: 1px solid #4e75ff;
+  outline: none;
+}
+fieldset > label {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e2f42;
+  position: relative;
+  bottom: -18px;
+}
+
+legend {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-left: 28px;
+}
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
